@@ -123,7 +123,7 @@ We will end up with a table that lists each genre and its corresponding average 
   
   [Gross Analysis](https://docs.google.com/spreadsheets/d/1SMZSdNtMuPcIv08dkJdy3ocLVNKTVH_GnTW0vXZEUyo/edit#gid=1530561656)
 
-  image
+  ![gross analysis](https://github.com/SushmaRaasi/IMDB-Movie-Analysis/assets/79751402/cf685069-e48b-445d-a2df-e186982ff0ac)
 
   <br>
   
@@ -147,14 +147,18 @@ We will end up with a table that lists each genre and its corresponding average 
   <p>To start the analysis, I have determined the most common genres of movies in the dataset. By using the COUNTIF function in Excel, to count the occurrences of each genre. I also handled cases where a movie belongs to multiple genres by separating and counting them individually.
 </p>
 <p>The top 5 most common genres in the dataset are as follows:</p>
-Common Generes image
+
+![Common Genres](https://github.com/SushmaRaasi/IMDB-Movie-Analysis/assets/79751402/d3cf1ea8-e414-49aa-a361-17905a8404dc)
+
 <li>Descriptive Statistics for IMDB Scores by Genre:
 </li>
 <p>For each of the top 5 genres, Icalculated descriptive statistics using Excel's relevant functions. These statistics provide insights into the central tendency, variability, and overall distribution of IMDB scores within each genre.
 </p>
 <p>Below are the calculated statistics for the IMDB scores in each of the top 5 genres:
 </p>
-descriptive statistics image
+
+![descriptive statistics](https://github.com/SushmaRaasi/IMDB-Movie-Analysis/assets/79751402/463dd827-4799-4bc4-8503-cbc129135ddb)
+
 <ol>
   <li>Drama:</li>
   <ul>
@@ -172,7 +176,9 @@ descriptive statistics image
 </li>
     <li>Drama's ratings are distributed over a broad range, indicating varying levels of audience appreciation.</li>
   </ul>
-  Drama Image
+  
+ ![Drama Image](https://github.com/SushmaRaasi/IMDB-Movie-Analysis/assets/79751402/4340c70b-ff0d-484d-87c6-ee7803653704)
+
 <li>Comedy:</li>
 <ul>
   <li>With 1862 movies, Comedy is another genre with a significant presence in the dataset.</li>
@@ -187,8 +193,9 @@ descriptive statistics image
   <li>Comedy genre exhibits a wide distribution of ratings, encompassing both high and low scores.
 </li>
 </ul>
-Comedy Image
-  
+
+  ![Comedy Image](https://github.com/SushmaRaasi/IMDB-Movie-Analysis/assets/79751402/d8e4f692-53fd-4097-b2dd-3d9afe396520)
+
 <li>Thriller:</li>
 <ul>
   <li>Thriller is represented by 1396 movies in the dataset.</li>
@@ -201,7 +208,8 @@ Comedy Image
   <li>The standard deviation of 1.05 reflects the extent of score deviation from the mean.</li>
   <li>Thriller's ratings are distributed over a moderate range, reflecting varying audience perceptions.</li>
 </ul>
-Thriller Image
+
+![Thriller Image](https://github.com/SushmaRaasi/IMDB-Movie-Analysis/assets/79751402/53a85e17-3b40-46e9-94fb-dbc209d2ad68)
 
   <li>Romance:</li>
   <ul>
@@ -217,8 +225,9 @@ Thriller Image
     <li>The standard deviation of 1 reflects a moderate spread of scores around the mean.</li>
     <li>Romance genre's ratings exhibit a relatively compact distribution with a focus on moderate scores.</li>
   </ul>
-  Romance Image
   
+  ![Romance Image](https://github.com/SushmaRaasi/IMDB-Movie-Analysis/assets/79751402/bd084eed-145a-4d9b-b063-95258cdd4779)
+
   <li>Adventure:</li>
   <ul>
     <li>Adventure movies are represented by 914 entries in the dataset.</li>
@@ -246,9 +255,12 @@ Thriller Image
   
   [Click here to see the Analysis](https://docs.google.com/spreadsheets/d/1SMZSdNtMuPcIv08dkJdy3ocLVNKTVH_GnTW0vXZEUyo/edit#gid=1023029157)
 
-  overview image 
+ ![overview](https://github.com/SushmaRaasi/IMDB-Movie-Analysis/assets/79751402/eeac5d12-dcbd-457c-8544-bdddb6c6f117)
+
   <br>
-  imdb Vs duration image
+  
+![imdb Vs duration image](https://github.com/SushmaRaasi/IMDB-Movie-Analysis/assets/79751402/97546da1-b6b5-43c3-8f1e-b8ead5aaba93)
+
   <br>
   <li>Insights:</li>
   <p>for every additional minute in movie duration, the average IMDB score increases by approximately 0.0117 points.</p>
@@ -267,52 +279,78 @@ Thriller Image
   [Click here to see the Analysis](https://docs.google.com/spreadsheets/d/1SMZSdNtMuPcIv08dkJdy3ocLVNKTVH_GnTW0vXZEUyo/edit#gid=1577361208)
 
 <br>
-  count of movies image
-  <br>
+ 
+  ![count of movies](https://github.com/SushmaRaasi/IMDB-Movie-Analysis/assets/79751402/cab4218f-ead9-4a6a-8f47-d3b1e0dd0079)
+
+<br>
   <p>Based on the Above BarChart I have presented my analysis of the common languages ( top 5 ).
 </p>
 
 [click here to view the top 5 movies info](https://docs.google.com/spreadsheets/d/1SMZSdNtMuPcIv08dkJdy3ocLVNKTVH_GnTW0vXZEUyo/edit#gid=1412770151)
 
 <br>
-movies vs Language image
+
+![movies vs Language image](https://github.com/SushmaRaasi/IMDB-Movie-Analysis/assets/79751402/ec38bac1-b1cb-4b4a-bee5-3c269fac1a7e)
+
 <br>
-imdb scores vs language image
+
+![imdb scores vs Language](https://github.com/SushmaRaasi/IMDB-Movie-Analysis/assets/79751402/5e763043-ceb6-46d6-8ab6-c4f9153563c1)
+
 <br>
 <ol>
   <li>English:</li>
-  English 1 image
+  
+  ![english 1](https://github.com/SushmaRaasi/IMDB-Movie-Analysis/assets/79751402/c458a340-e224-47f0-9f55-95d12d22555f)
+
   <br>
-  english 2 image
+  
+![english 2](https://github.com/SushmaRaasi/IMDB-Movie-Analysis/assets/79751402/ccf8c7b9-910c-4084-b048-869fd3d9b13e)
+
   <p>Overall, an average rating of 6.4, a median of 6.5, and a low standard deviation of 1.12 collectively suggest that movies in this language receive ratings that are moderately positive, consistently clustered around the central value, and have relatively low variability in audience opinions. Audiences generally have similar expectations when it comes to the quality of movies in this language, and there are fewer extreme ratings that significantly deviate from the central tendency.
 </p>
 
   <li>French:</li>
-  French 1 image
+  
+  ![French 1](https://github.com/SushmaRaasi/IMDB-Movie-Analysis/assets/79751402/d5334ffd-0ff4-4d99-9e6d-7ae13f8000f8)
+
   <br>
-  French 2 image
+  
+![French 2](https://github.com/SushmaRaasi/IMDB-Movie-Analysis/assets/79751402/c3292f63-d1cd-4d8c-991f-62626eee1642)
+
   <br>
   <p>Overall, an average rating of 7.04, a median of 7.2, and a low standard deviation of 0.73 collectively suggest that movies in this language tend to receive ratings that are above average, consistently clustered around the central value, and have relatively low variability in audience opinions. Audiences generally have similar, positive expectations when it comes to the quality of movies in this language, with very few extreme ratings that deviate significantly from the central tendency.</p>
 
   <li>Spanish:</li>
-spanish 1 image
+  
+![spanish 1 image](https://github.com/SushmaRaasi/IMDB-Movie-Analysis/assets/79751402/4784f67e-fcb7-443a-8a7b-1752f03ed4da)
+
 <br>
-spanish 2 image
+
+![spanish 2 image](https://github.com/SushmaRaasi/IMDB-Movie-Analysis/assets/79751402/0ec82c1f-4439-487a-8390-a61da0e250db)
+
 <br>
 <p>Overall, an average rating of 6.94, a median of 7.15, and a low standard deviation of 0.86 collectively suggest that movies in this language tend to receive ratings that are above average, consistently clustered around the central value, and have relatively low variability in audience opinions. Audiences generally have similar, positive expectations when it comes to the quality of movies in this language, with very few extreme ratings that deviate significantly from the central tendency.</p>
 
 <li>Hindi:</li>
-hindi 1 image
+
+![hindi 1 image](https://github.com/SushmaRaasi/IMDB-Movie-Analysis/assets/79751402/26ae29a8-b6a2-4354-b626-43c8a6eb6f39)
+
 <br>
-hindi 2 image
+
+![hindi 2 image](https://github.com/SushmaRaasi/IMDB-Movie-Analysis/assets/79751402/1e658248-6145-47f9-800f-1f2590d532f0)
+
 <br>
 <p>Overall, an average rating of 6.63, a median of 6.95, and a relatively high standard deviation of 1.4 collectively suggest that movies in this language category tend to have ratings that are slightly below the median of the entire dataset. Additionally, there is considerable variability in audience opinions, with a notable presence of both high and low ratings. Audiences might have a more diverse range of experiences when watching movies in this language, with less predictability in terms of quality compared to languages with lower standard deviations and more symmetric distributions.
 </p>
 
 <li>Mandarin:</li>
-mandarin 1 image
+
+![mandarin 1 image](https://github.com/SushmaRaasi/IMDB-Movie-Analysis/assets/79751402/5de3f8fa-3595-417f-85b2-c40ee1e4f86e)
+
 <br>
-mandarin 2 image.PNG
+
+![mandarin 2 image](https://github.com/SushmaRaasi/IMDB-Movie-Analysis/assets/79751402/6ec5756d-dfca-4df4-ba66-bf74228d7266)
+
 <br>
 <p>Overall, an average rating of 6.79, a median of 7.05, and a moderate standard deviation of 1.04 collectively suggest that movies in this language tend to have ratings that are slightly above average. While there is some variability in audience opinions and a mix of ratings, the majority of movies in this language fall within a moderate range of ratings. Audiences might have a moderate level of predictability in terms of quality when watching movies in this language, with slightly more consistency in ratings compared to languages with higher standard deviations and more negatively skewed distributions.
 </p>
@@ -340,10 +378,14 @@ mandarin 2 image.PNG
 <ul>
   <li>Create a Histogram
 </li>
-  imdb score Vs directors average image
+  
+  ![imdb score Vs directors average image](https://github.com/SushmaRaasi/IMDB-Movie-Analysis/assets/79751402/621c46e7-7d9c-493b-b620-b62d92854f05)
+
   <br>
   <li>Summary Statistics</li>
-  summary stats
+  
+![summary stats](https://github.com/SushmaRaasi/IMDB-Movie-Analysis/assets/79751402/5c0560a4-290a-4c02-a1a7-600ffcb09a09)
+
   <br>
   <p>Based on the summary statistics, here are some interpretations:
 </p>
@@ -364,7 +406,9 @@ mandarin 2 image.PNG
   
   <li>Correlation Analysis:
 </li>
-correlation image
+
+![correlation image](https://github.com/SushmaRaasi/IMDB-Movie-Analysis/assets/79751402/f92b82a7-fb48-4bd5-bda1-d668a6505283)
+
 <ul>
    <li>The correlation coefficient of 0.12.</li>
    <li>The positive sign (+0.12) indicates that there is a positive relationship between movie budgets and gross earnings. In other words, as movie budgets increase, there is a tendency for gross earnings to increase, but the relationship is not strong.
@@ -376,11 +420,14 @@ correlation image
   <li>Profit Margin Analysis:
 </li>
 <p>The profit margin represents the financial success of each movie.</p>
-profit margin analysis image
+
+![profit margin analysis image](https://github.com/SushmaRaasi/IMDB-Movie-Analysis/assets/79751402/09a49fcd-3306-4c94-bfae-3b6476f3efa2)
+
 <br>
 <p>The movie with the highest profit margin is Avatar with a profit Margin as 523505847.</p>
 
-max profit image image
+![max profit image image](https://github.com/SushmaRaasi/IMDB-Movie-Analysis/assets/79751402/451fbec2-0f7c-483d-bb16-88e0d3efa81a)
+
 <br>
 
 [click here to see the Analysis](https://docs.google.com/spreadsheets/d/1SMZSdNtMuPcIv08dkJdy3ocLVNKTVH_GnTW0vXZEUyo/edit#gid=629714056)
