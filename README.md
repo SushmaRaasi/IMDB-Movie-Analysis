@@ -136,7 +136,7 @@ We will end up with a table that lists each genre and its corresponding average 
 [IMDB Movies Dataset After Cleaning](https://docs.google.com/spreadsheets/d/1SMZSdNtMuPcIv08dkJdy3ocLVNKTVH_GnTW0vXZEUyo/edit#gid=1089618744)
 
 ### Data Analysis
-#### 1 Movie Genre Distribution and Imapct On IMDB Score
+#### Movie Genre Distribution and Imapct On IMDB Score
 <ul>
   <li>DataSet Overview:</li>
   <p>The provided dataset contains information about movies, including their titles, genres, and IMDB scores. The goal of this analysis is to understand the distribution of movie genres and how different genres impact IMDB scores.
@@ -238,6 +238,158 @@ Thriller Image
 <p>From the analysis of the provided statistics, it is evident that different genres show variations in audience reception as reflected in their IMDB scores. Some genres have wider ranges of scores, while others have more compact distributions. Genres like Comedy and Adventure have higher variability in ratings, indicating diverse audience opinions, while genres like Romance have more consistent ratings. The mean, median, mode, variance, and standard deviation values provide insights into each genre's performance and audience preferences.</p>
 </ul>
 
+#### Movie Duration Analysis
+<ul>
+  <li>Dataset Overview:
+</li>
+  <p>The dataset at hand comprises information about movies, including their durations and IMDB scores. The objective of this analysis is to investigate the distribution of movie durations and discern any potential relationship between movie duration and IMDB scores.</p>
+  
+  [Click here to see the Analysis](https://docs.google.com/spreadsheets/d/1SMZSdNtMuPcIv08dkJdy3ocLVNKTVH_GnTW0vXZEUyo/edit#gid=1023029157)
+
+  overview image 
+  <br>
+  imdb Vs duration image
+  <br>
+  <li>Insights:</li>
+  <p>for every additional minute in movie duration, the average IMDB score increases by approximately 0.0117 points.</p>
+
+<p>Based on the above analysis I can interpret the positive slope value as evidence that longer movie durations are generally associated with higher IMDB scores, though the strength of this relationship might be moderate.
+</p>
+</ul>
+
+#### Language Analysis
+<ul>
+  <li>Dataset Overview:</li>
+  <p>The dataset at hand comprises information about movies, including their Languages and IMDB scores.The objective of this analysis is to Analyze the distribution of movies based on their language and its impact on IMDb scores can provide valuable insights into the preferences of audiences.</p>
+  
+  <li>Insights:</li>
+
+  [Click here to see the Analysis](https://docs.google.com/spreadsheets/d/1SMZSdNtMuPcIv08dkJdy3ocLVNKTVH_GnTW0vXZEUyo/edit#gid=1577361208)
+
+<br>
+  count of movies image
+  <br>
+  <p>Based on the Above BarChart I have presented my analysis of the common languages ( top 5 ).
+</p>
+
+[click here to view the top 5 movies info](https://docs.google.com/spreadsheets/d/1SMZSdNtMuPcIv08dkJdy3ocLVNKTVH_GnTW0vXZEUyo/edit#gid=1412770151)
+
+<br>
+movies vs Language image
+<br>
+imdb scores vs language image
+<br>
+<ol>
+  <li>English:</li>
+  English 1 image
+  <br>
+  english 2 image
+  <p>Overall, an average rating of 6.4, a median of 6.5, and a low standard deviation of 1.12 collectively suggest that movies in this language receive ratings that are moderately positive, consistently clustered around the central value, and have relatively low variability in audience opinions. Audiences generally have similar expectations when it comes to the quality of movies in this language, and there are fewer extreme ratings that significantly deviate from the central tendency.
+</p>
+
+  <li>French:</li>
+  French 1 image
+  <br>
+  French 2 image
+  <br>
+  <p>Overall, an average rating of 7.04, a median of 7.2, and a low standard deviation of 0.73 collectively suggest that movies in this language tend to receive ratings that are above average, consistently clustered around the central value, and have relatively low variability in audience opinions. Audiences generally have similar, positive expectations when it comes to the quality of movies in this language, with very few extreme ratings that deviate significantly from the central tendency.</p>
+
+  <li>Spanish:</li>
+spanish 1 image
+<br>
+spanish 2 image
+<br>
+<p>Overall, an average rating of 6.94, a median of 7.15, and a low standard deviation of 0.86 collectively suggest that movies in this language tend to receive ratings that are above average, consistently clustered around the central value, and have relatively low variability in audience opinions. Audiences generally have similar, positive expectations when it comes to the quality of movies in this language, with very few extreme ratings that deviate significantly from the central tendency.</p>
+
+<li>Hindi:</li>
+hindi 1 image
+<br>
+hindi 2 image
+<br>
+<p>Overall, an average rating of 6.63, a median of 6.95, and a relatively high standard deviation of 1.4 collectively suggest that movies in this language category tend to have ratings that are slightly below the median of the entire dataset. Additionally, there is considerable variability in audience opinions, with a notable presence of both high and low ratings. Audiences might have a more diverse range of experiences when watching movies in this language, with less predictability in terms of quality compared to languages with lower standard deviations and more symmetric distributions.
+</p>
+
+<li>Mandarin:</li>
+mandarin 1 image
+<br>
+mandarin 2 image.PNG
+<br>
+<p>Overall, an average rating of 6.79, a median of 7.05, and a moderate standard deviation of 1.04 collectively suggest that movies in this language tend to have ratings that are slightly above average. While there is some variability in audience opinions and a mix of ratings, the majority of movies in this language fall within a moderate range of ratings. Audiences might have a moderate level of predictability in terms of quality when watching movies in this language, with slightly more consistency in ratings compared to languages with higher standard deviations and more negatively skewed distributions.
+</p>
+</ol>
+
+#### Director Analysis:</li>
+<ul>
+  <li>Dataset Overview:
+</li>
+  <p>The main objective is to analyze the influence of directors on movie ratings and identifying the top directors is a valuable task in understanding the impact of filmmakers on a movie's success.</p>
+  <li>Data Preparation:</li>
+  <p>Creating a new column to calculate the average IMDb score for each director. By using Pivot table Feature.</p>
+  
+  [Pivot Table Info](https://docs.google.com/spreadsheets/d/1SMZSdNtMuPcIv08dkJdy3ocLVNKTVH_GnTW0vXZEUyo/edit#gid=1700369999)
+
+  <li>Identify Top Directors:</li>
+  <p>Calculate the 90th percentile score for the average IMDb scores to determine the threshold for selecting top directors.By using PERCENTILE Function.
+</p>
+
+[Top Directors Info](https://docs.google.com/spreadsheets/d/1SMZSdNtMuPcIv08dkJdy3ocLVNKTVH_GnTW0vXZEUyo/edit#gid=450148558)
+
+<li>Compare Top Directors to Overall Distribution:</li>
+
+[Click here to see the Analysis](https://docs.google.com/spreadsheets/d/1SMZSdNtMuPcIv08dkJdy3ocLVNKTVH_GnTW0vXZEUyo/edit#gid=1532100628)
+<ul>
+  <li>Create a Histogram
+</li>
+  imdb score Vs directors average image
+  <br>
+  <li>Summary Statistics</li>
+  summary stats
+  <br>
+  <p>Based on the summary statistics, here are some interpretations:
+</p>
+  <ul>
+    <li>Movies directed by top directors tend to have higher IMDb scores on average (7.883) compared to all movies (6.441).
+</li>
+    <li>The IMDb scores for top directors' movies exhibit less variability (low standard deviation) compared to the overall distribution, indicating that they constantly receive higher ratings.</li>
+  </ul>
+</ul>
+</ul>
+
+#### Budget Analysis
+<ul>
+  <li>
+    Dataset Overview:
+  </li>
+  <p>With the correlation coefficient, and identification of movies with the highest profit margin, These insights help to find the financial performance and the relationship between budgets and earnings in the movie dataset.</p>
+  
+  <li>Correlation Analysis:
+</li>
+correlation image
+<ul>
+   <li>The correlation coefficient of 0.12.</li>
+   <li>The positive sign (+0.12) indicates that there is a positive relationship between movie budgets and gross earnings. In other words, as movie budgets increase, there is a tendency for gross earnings to increase, but the relationship is not strong.
+</li>
+   <li>The magnitude of 0.122 is relatively close to zero. This suggests that the correlation between budgets and gross earnings is weak. In practical terms, the increase in budgets does not strongly predict an increase in gross earnings, and vice versa.</li>
+   <li>The weak correlation could indicate that other factors, such as movie quality, marketing, release timing, and audience reception, might have a more significant impact on gross earnings than budgets alone.</li>
+</ul>
+
+  <li>Profit Margin Analysis:
+</li>
+<p>The profit margin represents the financial success of each movie.</p>
+profit margin analysis image
+<br>
+<p>The movie with the highest profit margin is Avatar with a profit Margin as 523505847.</p>
+
+max profit image image
+<br>
+
+[click here to see the Analysis](https://docs.google.com/spreadsheets/d/1SMZSdNtMuPcIv08dkJdy3ocLVNKTVH_GnTW0vXZEUyo/edit#gid=629714056)
+
+</ul>
+
+### Result
+<p>In conclusion, The analysis demonstrates that a combination of factors, including genre, duration, language, director, budget, and profit margin, collectively shapes a movie's success on IMDb. These insights are invaluable to stakeholders in the film industry, enabling them to make data-driven decisions when producing, directing, and investing in future cinematic ventures.From this project I learnt the need of data filtration and how to generate deeper insights for a problem mentioned.
+</p>
 
 
 
