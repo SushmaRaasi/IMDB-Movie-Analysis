@@ -37,6 +37,17 @@
 #### Five 'Whys' Approach
 <p>Employing the probing "Five 'Whys'" technique, we embark on a journey of unearthing the underlying causes. By iteratively questioning the implications of our findings, we aim to unearth the fundamental drivers behind observed trends.</p>
 
+Q: "Why do movies with higher budgets tend to have higher ratings?"
+A: They can afford better production quality.
+Q: "Why does better production quality lead to higher ratings?"
+A: It enhances the viewer's experience.
+Q: "Why does an enhanced viewer experience lead to higher ratings?"
+A: Viewers are more likely to rate a movie highly if they enjoyed watching it.
+Q: "Why are viewers more likely to rate a movie highly if they enjoyed watching it?"
+A: Positive experiences lead to positive reviews.
+Q: "Why do positive reviews matter?"
+A: They influence other viewers' decisions to watch the movie, increasing its popularity and success.
+
 #### Report and Data Story
 <p>The culmination of our analysis manifests in a comprehensive report. This narrative not only encapsulates the initial problem and our discoveries but also employs visualizations to create an engaging data story that underscores the salient insights garnered.</p>
 
