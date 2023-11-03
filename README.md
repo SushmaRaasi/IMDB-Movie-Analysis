@@ -1,5 +1,7 @@
 # IMDB-Movie-Analysis
 
+![IMDB](https://github.com/SushmaRaasi/IMDB-Movie-Analysis/assets/79751402/8f74698d-c81f-49eb-be64-9a2c7d554d0d)
+
 ### Project Decription
 <p>In this project, the objective is to delve into the intriguing world of movie success on IMDB and decipher the factors that contribute to high ratings. This endeavor holds substantial significance for individuals involved in the movie industry, such as producers, directors, and investors, who seek to make informed decisions about their future cinematic ventures.
 </p>
