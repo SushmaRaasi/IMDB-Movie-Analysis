@@ -1,6 +1,24 @@
 # IMDB-Movie-Analysis
 
-### Project Decription
+- [Project Description](#project-description)
+- [Problem](#problem)
+- [Approach](#approach)
+    - [Data Cleaning](#data-cleaning)
+    - [Data Analysis](#data-analysis)
+    - [Five 'Whys' Approach](#five-whys-approach)
+    - [Report and Data Story](#report-and-data-story)
+- [Tech Stack Used](#tech-stack-used)
+- [Dataset](#dataset)
+- [Data Cleaning](#data-cleaning)
+- [Data Analysis](#data-analysis)
+    - [Movie Genre Distribution and Imapct On IMDB Score](#movie-genre-distribution-and-imapct-on-imdb-score)
+    - [Movie Duration Analysis](#movie-duration-analysis)
+    - [Language Analysis](#language-analysis)
+    - [Director Analysis](#director-analysis)
+    - [Budget Analysis](#budget-analysis)
+- [Result](#result)
+  
+### Project Description
 <p>In this project, the objective is to delve into the intriguing world of movie success on IMDB and decipher the factors that contribute to high ratings. This endeavor holds substantial significance for individuals involved in the movie industry, such as producers, directors, and investors, who seek to make informed decisions about their future cinematic ventures.
 </p>
 
